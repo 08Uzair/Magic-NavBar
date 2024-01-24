@@ -1,0 +1,12 @@
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<i class='bx bx-home'></i> - FOR HOME
+<i class='bx bx-user'></i> - FOR PROFILE
+<i class='bx bx-message-rounded'></i> - FOR MESSAGE
+<i class='bx bx-camera'></i> - FOR CAMERA
+<i class='bx bx-cog'></i> - FOR PHONE
+.........................................................................................................................
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+font-family: 'Poppins', sans-serif;

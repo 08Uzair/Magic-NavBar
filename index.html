@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>MAGIC NAVBAR</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon">
+                        <i class='bx bx-home'></i>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+<li class="list">
+    <a href="#">
+        <span class="icon">
+            <i class='bx bx-user'></i>
+        </span>
+        <span class="text">Profile</span>
+    </a>
+</li>
+          
+            <li class="list ">
+                <a href="#">
+                    <span class="icon">
+                        <i class='bx bx-message-rounded'></i>
+                    </span>
+                    <span class="text">Message</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <i class='bx bx-camera'></i>
+                    </span>
+                    <span class="text">Camera</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <i class='bx bx-cog'></i>
+                    </span>
+                    <span class="text">SETTINGS</span>
+                </a>
+            </li>
+           
+            <div class="indicator"></div>
+        </ul>
+    </div>
+    <script>
+        const list =  document.querySelectorAll('.list')
+        function activeLink(){
+            list.forEach((item)=>
+            item.classList.remove('active'));
+            this.classList.add('active');
+
+        }
+        list.forEach((item)=>
+        item.addEventListener('click',activeLink))
+    </script>
+</body>
+
+</html>
